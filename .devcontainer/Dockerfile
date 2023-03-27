@@ -4,6 +4,8 @@ ARG UID=1000
 ARG GID=1000
 ARG USER="cairo"
 
+COPY ../requirements.txt requirements.txt
+
 # Common dependencies
 RUN apt-get update -qq \
   && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
@@ -17,7 +19,7 @@ RUN apt-get update -qq \
   && python -m pip install --upgrade pip \
   && sudo apt install -y libgmp3-dev \
   && pip3 install ecdsa fastecdsa sympy \
-  && pip3 install cairo-lang openzeppelin-cairo-contracts starknet-devnet==v0.5.0a0 starknet-py \
+  && pip3 install --upgrade -r requirements.txt \
   && apt-get clean \
   && rm -rf /var/cache/apt/archives/* \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
