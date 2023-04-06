@@ -31,6 +31,13 @@ func _is_valid_signature{
 
     // CODE HERE
 
+    let sig_r = signature[0];
+    let sig_s = signature[1];
+
+    verify_ecdsa_signature(
+        message=hash, public_key=_public_key, signature_r=sig_r, signature_s=sig_s
+    );
+
     return ();
 }
 

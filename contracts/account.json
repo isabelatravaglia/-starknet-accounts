@@ -1,13 +1,14 @@
 {
     "http://localhost:5050": {
-        "contracts/signature/signature_1": "0x1625e2a897b1e8d4c5e283cbe04c9b0e4104e3fb5941a5f0abe490370148baa",
-        "contracts/tutorial/evaluator": "0x6262fff1b29fcb82b40247b47e93183adbac36a93967915dcfdfdbd382ae367",
-        "contracts/tutorial/player_registry": "0x28e3f05033e0c633c8b99756dc9ed433baf9d332c28c46b6ea60c33d7825ce5",
-        "contracts/tutorial/token/TDERC20": "0x2668cb38eebdb4e8214cb1c71c6631d1b5c71ce8047b5b8ebcf8380f0a55335"
+        "contracts/signature/signature_2": "0x32d0c426e85606d100e1fb2ceba80464bf8bab359d424d235b4612aed328bf",
+        "contracts/tutorial/evaluator": "0x4182f6b66341ba03d186c1e0f1b58360dc67a74fdf41136c3efd6d2cb480370",
+        "contracts/tutorial/player_registry": "0x64ea916603d42fd9b582cac69926ddee61e905cb398e1650aa7917905637545",
+        "contracts/tutorial/token/TDERC20": "0x343dd552dc92ae8db3e44ed063fa833e06242762e28b05045129418ee1531db"
     },
     "testnet": {
         "contracts/hello/hello": "0x26d59414324ff585a62da14ed048030dd64acc213b2753b085eae9f5c6c64d7",
         "contracts/signature/signature_1": "0x5b25e01bed5d00c46dbfd3ef79993a7685a42bdfb4c18196400b55cafacd1ed",
+        "contracts/signature/signature_2": "0x1d3a7496911ab01e84e0b0a0d74597b68db90043d7d36f02873a52b0643f384",
         "contracts/tutorial/evaluator": "0x01bb626c068310ba990db71f7d51fe999c37053d42470aee35698577a44baec6",
         "contracts/tutorial/player_registry": "0x045f8c0488cbe3fca19b9cc5ad88468b52b30195e1b73a0b3afbe98e5dfe1807",
         "contracts/tutorial/token/TDERC20": "0x0134b89cfb9735a407c58b1a454c40634b600ab1e5a37d8138015f025cc8af4f"
