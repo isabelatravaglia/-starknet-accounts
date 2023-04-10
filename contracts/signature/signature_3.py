@@ -50,13 +50,13 @@ async def main():
     #
     # ACTION ITEM 2: sign the starknet transaction w/ secp256k1
     #
-    signature # CODE HERE
+    signature = pk.sign_msg_hash((hash).to_bytes(32, byteorder="big")) # CODE HERE
 
     #
     # ACTION ITEM 3: format the signature so your account can verify
     #
-    sig_r # CODE HERE
-    sig_s # CODE HERE
+    sig_r = to_uint(signature.r) # CODE HERE
+    sig_s = to_uint(signature.s) # CODE HERE
 
     invoke = InvokeFunction(
       calldata=calldata,
